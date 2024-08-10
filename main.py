@@ -25,8 +25,6 @@
 #>>> 7. Historico de Versoes
 
 
-
-
 #>>>>>>>>>>>>>>>>>>>> PRIMEIROS PROGRAMAS EM PYTHON <<<<<<<<<<<<<<<<<<<<#
 
 #PARTE 1
@@ -55,6 +53,8 @@
 #print ('Ola,', nome)
 #print (f'Ola, {nome}')
 
+
+
 #PARTE 2
 
 # 1. Como alterar o valor de uma variavel
@@ -70,3 +70,103 @@
 #print (nome)
 #print (idade)
 #print (peso)
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>> OPERADORES MATEMATICOS <<<<<<<<<<<<<<<<<<<<<<<#
+
+#PARTE 1
+
+# 1. Soma (+)
+#print (2 + 2)
+#print (2.0 + 2)
+#print (2.0 + 3.0)
+
+# 2. Subtracao (-)
+#print (2 - 2)
+#print (2.0 - 2)
+#print (2.0 - 3.0)
+
+# 3. Multiplicacao (*) - Ex: tabuada
+#print ('2x1 = ',2 * 1)
+#print ('2x2 = ',2 * 2)
+#print ('2x3 = ',2 * 3)
+#print ('2x4 = ',2 * 4)
+#print ('2x5 = ',2 * 5)
+#print ('2x6 = ',2 * 6)
+#print ('2x7 = ',2.0 * 7)
+#print ('2x8 = ',2 * 8)
+#print ('2x9 = ',2 * 9)
+#print ('2x10 = ',2 * 10)
+
+# 4. Divisao (/, //)
+#print (6 / 2)
+#print (7.0 / 2.0)
+#print (7.0 // 2.0)
+#print (2 // 3)
+
+
+# 5. Exponenciacao (**) - Ex: Quadrados de 1 a 5
+#print( 3 ** 2)
+#print( 3.0 ** 2)
+#print( 1 ** 2)
+#print( 2 ** 2)
+#print( 3 ** 2)
+#print( 4 ** 2)
+#print( 5 ** 2)
+
+
+
+#PARTE 2
+
+# 1. Calculos simples com variaveis
+#numero1 = 3
+#numero2 = 5
+#resultado = (numero1 + numero2)
+#print(resultado)
+#resultado = (numero1 - numero2)
+#print(resultado)
+#resultado = (numero1 * numero2)
+#print(resultado)
+#resultado = (numero1 / numero2)
+#print(resultado)
+#resultado = (numero1 // numero2)
+#print(resultado)
+#resultado = (numero1 ** numero2)
+#print(resultado)
+
+# 2. Precedencias: () > ** > *, /, // > +, -
+#print (5 + 2 * 3 - 2 ** 3 + 3 / 2)
+#print ((5 + 2) * 3 - 2 ** 3 + 3 / 2)
+
+# 3. Exemplo: conta de restaurante
+#item1 = 20.90
+#item2 = 36.99
+#item3 = 17.50
+#gorjeta = 0.15
+
+#total = (item1 + item2 + item3)
+#total = total + gorjeta * total
+
+#print ('Total da conta é: ', total)
+
+
+# 4. Exemplo: conversao Mb/s -> MB/s
+#conexao = 500
+#taxa = conexao / 8
+#print (f'Com {conexao} Mb/s voce consegue uma taxa de {taxa} MB+/s')
+
+# 5. Atualizacao de variaveis (+=, -= etc.)
+#pontos = 0
+#print(pontos)
+
+#pontos = pontos + 10
+#pontos += 10
+#print(pontos)
+
+#pontos = pontos + 15
+#pontos += 15
+#print(pontos)
+
+#pontos = pontos - 5
+#pontos += -5
+#print(pontos)
