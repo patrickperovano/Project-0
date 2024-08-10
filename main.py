@@ -58,5 +58,15 @@
 #PARTE 2
 
 # 1. Como alterar o valor de uma variavel
+#nome = 'Patrick'
+#nome = 'Dani'
+
 
 # 2. Analisar variaveis usando debugger
+#nome = 'Patrick'
+#nome = 'Dani'
+#idade = 36
+#peso = 99.9
+#print (nome)
+#print (idade)
+#print (peso)
